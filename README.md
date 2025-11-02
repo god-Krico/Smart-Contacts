@@ -1,16 +1,47 @@
-# React + Vite
+# 🧠 Smart Contacts 📇  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart Contacts is a simple, elegant contact management web app that allows users to **add, view, delete, and restore contacts** — all displayed as visually pleasing tiles. It also includes a built-in **Recycle Bin** for accidentally deleted contacts.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
+👉 [Deployed on Vercel](https://smart-contacts.vercel.app)  
+*(Replace this link after deployment)*  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Features  
 
-## Expanding the ESLint configuration
+- ➕ **Add New Contacts:** Enter name, phone number, and email.  
+- 🔍 **Search Contacts:** Instantly filter contacts by name or number.  
+- 🗑️ **Soft Delete:** Contacts move to the Recycle Bin instead of permanent deletion.  
+- 🔄 **Restore Contacts:** Easily bring back deleted contacts.  
+- 🧱 **Tile Layout:** Contacts appear as neatly aligned tiles, 5 per row.  
+- 🎨 **Responsive Design:** Built with TailwindCSS for smooth and modern styling.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack  
+
+- **React.js** – Frontend framework  
+- **Tailwind CSS** – Styling and responsive UI  
+- **Vite** – Fast React development environment  
+
+---
+
+## 🧰 Installation and Setup  
+
+To run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/god-Krico/Smart-Contacts.git
+
+# 2. Move into the project directory
+cd Smart-Contacts
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
