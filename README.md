@@ -45,7 +45,7 @@ npm install
 # 4. Start the development server
 npm run dev
 # 5.Then open your browser and visit:  
-👉 [http://localhost:5173](http://localhost:5173)
+👉 [http://localhost:5173]
 ```
 
 
