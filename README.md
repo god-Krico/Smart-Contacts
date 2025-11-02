@@ -5,8 +5,7 @@ Smart Contacts is a simple, elegant contact management web app that allows users
 ---
 
 ## 🚀 Live Demo  
-👉 [Deployed on Vercel](https://smart-contacts.vercel.app)  
-*(Replace this link after deployment)*  
+👉 [Deployed on Vercel](https://smart-contacts-two.vercel.app/)   
 
 ---
 
@@ -45,3 +44,33 @@ npm install
 
 # 4. Start the development server
 npm run dev
+# 5.Then open your browser and visit:  
+👉 [http://localhost:5173](http://localhost:5173)
+```
+
+
+## 🎨 Design Choices  
+
+- Used **flexbox + grid** to ensure responsive alignment of contact tiles.  
+- Adopted **TailwindCSS** for fast and clean styling.  
+- Chose a **recycle bin system** to prevent accidental data loss.  
+- Kept the UI **minimal and centered** for focus and clarity.  
+
+---
+
+## 📚 Libraries Used  
+
+| Library | Purpose |
+|----------|----------|
+| **React** | Frontend framework |
+| **TailwindCSS** | Styling and layout |
+| **Vite** | Development and bundling tool |
+
+---
+
+## 🧠 Assumptions  
+
+- Each contact is uniquely identified by an **id**.  
+- No backend database — all data is managed **in memory** (frontend only).  
+- Focused on **functionality and clean UI** rather than persistent storage.  
+
